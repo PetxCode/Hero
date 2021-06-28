@@ -187,7 +187,7 @@ const Menu = styled(CgMenu)`
 `;
 
 const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 70px;
   background-color: #090b13;
   display: flex;
