@@ -8,9 +8,8 @@ const App = () => {
   return (
     <>
       <BrowserRouter>
-        <Switch>
-          <HeaderComponent />
-        </Switch>
+        <HeaderComponent />
+        <Switch></Switch>
       </BrowserRouter>
       <HeroSection />
       <Footer />

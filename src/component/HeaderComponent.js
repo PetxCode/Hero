@@ -13,7 +13,7 @@ const HeaderComponent = () => {
     <>
       <Container>
         <Link to="/">
-          <Logo src="/images/8.png" />
+          <Logo src="/video/3.png" />
         </Link>
 
         <Wrapper>

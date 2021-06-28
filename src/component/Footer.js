@@ -54,9 +54,28 @@ const Footer = () => {
             Developed by CodeLab 🚀 | © {date} All rights reserved 👽{" "}
           </span>
           <SocialLinks>
-            <FaFacebookSquare />
-            <FaInstagram />
-            <FaYoutube />
+            <a
+              href="https://www.facebook.com/groups/brighterdayscodelab/"
+              // rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaFacebookSquare />
+            </a>
+
+            <a
+              href="https://www.instagram.com/peter_oti_code/"
+              // rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaInstagram />
+            </a>
+            <a
+              href="https://studio.youtube.com/channel/UCjHVNjp4cfxBfKRbbtUUYAg/videos"
+              // rel="noopener noreferrer"
+              target="_blank"
+            >
+              <FaYoutube />
+            </a>
           </SocialLinks>
         </Tab>
       </BottomTab>
@@ -92,6 +111,10 @@ const SocialLinks = styled.div`
   align-items: center;
   width: 170px;
   justify-content: space-between;
+
+  a {
+    color: white;
+  }
 `;
 const Logo = styled.img`
   width: 150px;
